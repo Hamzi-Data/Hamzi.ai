@@ -1,0 +1,55 @@
+# configs/training_config.yaml
+# Advanced Training Configuration
+
+# Basic training settings
+batch_size: 64
+epochs: 200
+
+beta1: 0.5
+beta2: 0.999
+
+# Separate learning rates
+generator_lr: 0.0002
+discriminator_lr: 0.0002
+encoder_lr: 0.0001
+
+# Loss weights
+lambda_gp: 10.0 # Gradient penalty weight
+lambda_adv: 1.0 # Adversarial loss weight
+lambda_cond: 0.1 # Conditional loss weight
+lambda_dist: 0.01 # Distribution loss weight
+lambda_constraint: 0.5 # Constraint loss weight
+
+# Training stability
+n_critic: 5 # Number of critic steps per generator step
+gradient_clip_value: 1.0
+apply_gradient_penalty: true
+gradient_penalty_type: "wgan-gp" # Options: wgan-gp, dragan, lipschitz
+
+# Learning rate scheduling
+lr_scheduler: "cosine" # Options: cosine, cyclic, plateau, step
+warmup_epochs: 10
+decay_steps: 1000
+decay_rate: 0.96
+min_learning_rate: 1e-6
+
+# Monitoring settings
+log_frequency: 100
+checkpoint_frequency: 10
+evaluation_frequency: 5
+sample_generation_frequency: 20
+
+# Evaluation settings
+evaluation_samples: 10000
+privacy_test_samples: 5000
+quality_metrics:
+  - "wasserstein"
+  - "js_divergence"
+  - "correlation"
+  - "privacy"
+
+# Saving settings
+save_dir: "models/week2"
+save_best_only: true
+early_stopping_patience: 20
+resume_training: false

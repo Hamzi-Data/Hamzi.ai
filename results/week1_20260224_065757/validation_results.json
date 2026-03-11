@@ -1,0 +1,112 @@
+{
+  "column_wise_metrics": {
+    "age": {
+      "spearman_correlation": 0.9999999999999999,
+      "js_divergence": 0.0,
+      "mean_preservation": 0.0,
+      "std_preservation": 0.0,
+      "ks_statistic": 0.0,
+      "ks_p_value": 1.0,
+      "mutual_information": 2.3013424763742236
+    },
+    "job": {
+      "spearman_correlation": 1.0,
+      "js_divergence": 0.0,
+      "mean_preservation": 0.0,
+      "std_preservation": 0.0,
+      "ks_statistic": 0.0,
+      "ks_p_value": 1.0,
+      "mutual_information": NaN
+    },
+    "marital": {
+      "spearman_correlation": 1.0,
+      "js_divergence": 0.0,
+      "mean_preservation": 0.0,
+      "std_preservation": 0.0,
+      "ks_statistic": 0.0,
+      "ks_p_value": 1.0,
+      "mutual_information": NaN
+    },
+    "education": {
+      "spearman_correlation": 1.0,
+      "js_divergence": 0.0,
+      "mean_preservation": 0.0,
+      "std_preservation": 0.0,
+      "ks_statistic": 0.0,
+      "ks_p_value": 1.0,
+      "mutual_information": NaN
+    },
+    "default": {
+      "spearman_correlation": 0.9999999999999998,
+      "js_divergence": 0.0,
+      "mean_preservation": 0.0,
+      "std_preservation": 0.0,
+      "ks_statistic": 0.0,
+      "ks_p_value": 1.0,
+      "mutual_information": NaN
+    },
+    "housing": {
+      "spearman_correlation": 0.9999999999999998,
+      "js_divergence": 0.0,
+      "mean_preservation": 0.0,
+      "std_preservation": 0.0,
+      "ks_statistic": 0.0,
+      "ks_p_value": 1.0,
+      "mutual_information": NaN
+    },
+    "loan": {
+      "spearman_correlation": 1.0,
+      "js_divergence": 0.0,
+      "mean_preservation": 0.0,
+      "std_preservation": 0.0,
+      "ks_statistic": 0.0,
+      "ks_p_value": 1.0,
+      "mutual_information": NaN
+    },
+    "contact": {
+      "spearman_correlation": 1.0,
+      "js_divergence": 0.0,
+      "mean_preservation": 0.0,
+      "std_preservation": 0.0,
+      "ks_statistic": 0.0,
+      "ks_p_value": 1.0,
+      "mutual_information": NaN
+    },
+    "month": {
+      "spearman_correlation": 1.0,
+      "js_divergence": 0.0,
+      "mean_preservation": 0.0,
+      "std_preservation": 0.0,
+      "ks_statistic": 0.0,
+      "ks_p_value": 1.0,
+      "mutual_information": NaN
+    },
+    "day_of_week": {
+      "spearman_correlation": 1.0,
+      "js_divergence": 0.0,
+      "mean_preservation": 0.0,
+      "std_preservation": 0.0,
+      "ks_statistic": 0.0,
+      "ks_p_value": 1.0,
+      "mutual_information": NaN
+    },
+    "duration": {
+      "spearman_correlation": 1.0,
+      "js_divergence": 0.0,
+      "mean_preservation": 0.0,
+      "std_preservation": 0.0,
+      "ks_statistic": 0.0,
+      "ks_p_value": 1.0,
+      "mutual_information": 1.033227579578217
+    }
+  },
+  "relationship_preservation": {
+    "correlation_preservation": {
+      "mean_difference": 0.0,
+      "max_difference": 0.0,
+      "correlation_similarity": 1.0
+    },
+    "hierarchy_preservation": {}
+  },
+  "overall_score": 0.75
+}

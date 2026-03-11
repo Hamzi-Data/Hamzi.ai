@@ -1,0 +1,254 @@
+{
+  "transaction_id": {
+    "name": "transaction_id",
+    "original_dtype": "int64",
+    "sample_count": 50000,
+    "missing_rate": 0.0,
+    "is_numeric": true,
+    "mean": 25000.5,
+    "std": 14433.90106658626,
+    "skewness": 0.0,
+    "kurtosis": -1.2000000009599996,
+    "min": 1.0,
+    "max": 50000.0,
+    "unique_count": 50000,
+    "is_integer": true,
+    "is_positive": true,
+    "is_bounded": true,
+    "anderson_statistic": 555.934168545893,
+    "ks_statistic": 0.057214399101341074,
+    "ks_p_value": 1.036878524948253e-142,
+    "multimodality_score": 0.0,
+    "is_multimodal": false,
+    "tail_behavior": "LIGHT_TAILED",
+    "power_law_test": {
+      "is_power_law": false,
+      "alpha": null,
+      "x_min": null,
+      "ks": null,
+      "p_value": null,
+      "tail_fraction": 0.0,
+      "support_size": 0,
+      "n_tail": 0,
+      "diagnostics": {
+        "reason": "no_counts_available"
+      }
+    },
+    "deep_type": "DISCRETE_UNIFORM",
+    "optimal_transformation": {
+      "type": "ordinal_encoding",
+      "parameters": {}
+    }
+  },
+  "customer_id": {
+    "name": "customer_id",
+    "original_dtype": "int64",
+    "sample_count": 50000,
+    "missing_rate": 0.0,
+    "is_numeric": true,
+    "mean": 2499.8612,
+    "std": 1441.5485615752484,
+    "skewness": 0.002282567510465536,
+    "kurtosis": -1.196580533166742,
+    "min": 1.0,
+    "max": 5000.0,
+    "unique_count": 4999,
+    "is_integer": true,
+    "is_positive": true,
+    "is_bounded": true,
+    "anderson_statistic": 549.5993506534141,
+    "ks_statistic": 0.05780093555798582,
+    "ks_p_value": 1.2063472771072462e-145,
+    "multimodality_score": 0.0,
+    "is_multimodal": false,
+    "tail_behavior": "LIGHT_TAILED",
+    "power_law_test": {
+      "is_power_law": false,
+      "alpha": null,
+      "x_min": null,
+      "ks": null,
+      "p_value": null,
+      "tail_fraction": 0.0,
+      "support_size": 0,
+      "n_tail": 0,
+      "diagnostics": {
+        "reason": "no_counts_available"
+      }
+    },
+    "deep_type": "DISCRETE_UNIFORM",
+    "optimal_transformation": {
+      "type": "ordinal_encoding",
+      "parameters": {}
+    }
+  },
+  "transaction_date": {
+    "name": "transaction_date",
+    "original_dtype": "object",
+    "sample_count": 50000,
+    "missing_rate": 0.0,
+    "is_numeric": false,
+    "unique_count": 50000,
+    "cardinality": 1.0,
+    "most_frequent": "2025-11-25 14:36:50.120398",
+    "frequency_of_most_frequent": 2e-05,
+    "is_ordinal": false,
+    "entropy": 15.60964040230206,
+    "gini_impurity": 0.99998,
+    "has_hierarchy": {
+      "has_levels": true,
+      "levels_detected": 3,
+      "example_pattern": "2025-07-05 23:36:00.306664"
+    },
+    "power_law_test": {
+      "is_power_law": false,
+      "alpha": null,
+      "x_min": null,
+      "ks": null,
+      "p_value": null,
+      "tail_fraction": 0.0,
+      "support_size": 0,
+      "n_tail": 0,
+      "diagnostics": {
+        "reason": "no_counts_available"
+      }
+    },
+    "deep_type": "CATEGORICAL_HIGH_CARDINALITY",
+    "optimal_transformation": {
+      "type": "target_encoding",
+      "parameters": {
+        "smoothing": 10
+      }
+    }
+  },
+  "amount": {
+    "name": "amount",
+    "original_dtype": "float64",
+    "sample_count": 50000,
+    "missing_rate": 0.0,
+    "is_numeric": true,
+    "mean": 199.42752940000003,
+    "std": 198.49336109611858,
+    "skewness": 1.939603275851398,
+    "kurtosis": 5.338413435185265,
+    "min": 0.01,
+    "max": 1790.82,
+    "unique_count": 30307,
+    "is_integer": false,
+    "is_positive": true,
+    "is_bounded": true,
+    "anderson_statistic": 2300.2547785224597,
+    "ks_statistic": 0.15753128135669275,
+    "ks_p_value": 0.0,
+    "multimodality_score": 0.0,
+    "is_multimodal": false,
+    "tail_behavior": "LIGHT_TAILED",
+    "deep_type": "CONTINUOUS_MULTIMODAL",
+    "optimal_transformation": {
+      "type": "quantile_gaussian",
+      "parameters": {
+        "n_quantiles": 1000,
+        "output_distribution": "normal"
+      }
+    }
+  },
+  "transaction_type": {
+    "name": "transaction_type",
+    "original_dtype": "object",
+    "sample_count": 50000,
+    "missing_rate": 0.0,
+    "is_numeric": false,
+    "unique_count": 3,
+    "cardinality": 6e-05,
+    "most_frequent": "Payment",
+    "frequency_of_most_frequent": 0.33618,
+    "is_ordinal": false,
+    "entropy": 1.5849353532077806,
+    "gini_impurity": 0.6666541064,
+    "has_hierarchy": {
+      "has_levels": false,
+      "levels_detected": 0,
+      "example_pattern": null
+    },
+    "deep_type": "CATEGORICAL_LOW_CARDINALITY",
+    "optimal_transformation": {
+      "type": "one_hot",
+      "parameters": {}
+    }
+  },
+  "channel": {
+    "name": "channel",
+    "original_dtype": "object",
+    "sample_count": 50000,
+    "missing_rate": 0.0,
+    "is_numeric": false,
+    "unique_count": 3,
+    "cardinality": 6e-05,
+    "most_frequent": "POS",
+    "frequency_of_most_frequent": 0.33478,
+    "is_ordinal": false,
+    "entropy": 1.5849538795143028,
+    "gini_impurity": 0.6666626823999999,
+    "has_hierarchy": {
+      "has_levels": false,
+      "levels_detected": 0,
+      "example_pattern": null
+    },
+    "deep_type": "CATEGORICAL_LOW_CARDINALITY",
+    "optimal_transformation": {
+      "type": "one_hot",
+      "parameters": {}
+    }
+  },
+  "merchant_category": {
+    "name": "merchant_category",
+    "original_dtype": "object",
+    "sample_count": 50000,
+    "missing_rate": 0.0,
+    "is_numeric": false,
+    "unique_count": 5,
+    "cardinality": 0.0001,
+    "most_frequent": "Healthcare",
+    "frequency_of_most_frequent": 0.20216,
+    "is_ordinal": false,
+    "entropy": 2.3218808527640826,
+    "gini_impurity": 0.7999869048,
+    "has_hierarchy": {
+      "has_levels": false,
+      "levels_detected": 0,
+      "example_pattern": null
+    },
+    "deep_type": "CATEGORICAL_LOW_CARDINALITY",
+    "optimal_transformation": {
+      "type": "one_hot",
+      "parameters": {}
+    }
+  },
+  "is_fraud": {
+    "name": "is_fraud",
+    "original_dtype": "int64",
+    "sample_count": 50000,
+    "missing_rate": 0.0,
+    "is_numeric": true,
+    "mean": 0.00018,
+    "std": 0.013415334487965199,
+    "skewness": 74.5154731286594,
+    "kurtosis": 5550.555735587959,
+    "min": 0.0,
+    "max": 1.0,
+    "unique_count": 2,
+    "is_integer": true,
+    "is_positive": false,
+    "is_bounded": true,
+    "anderson_statistic": 19312.28575998779,
+    "ks_statistic": 0.5051726399928229,
+    "ks_p_value": 0.0,
+    "multimodality_score": 0.0,
+    "is_multimodal": false,
+    "tail_behavior": "INSUFFICIENT_DATA",
+    "deep_type": "DISCRETE_UNIFORM",
+    "optimal_transformation": {
+      "type": "ordinal_encoding",
+      "parameters": {}
+    }
+  }
+}

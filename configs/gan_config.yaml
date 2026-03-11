@@ -1,0 +1,42 @@
+# configs/gan_config.yaml
+# Hybrid GAN configuration settings
+
+# Device settings
+device: "cuda" # or "cpu"
+seed: 42
+
+# Model settings
+noise_dim: 128
+generator_hidden_dim: 256
+discriminator_hidden_dim: 256
+embedding_dim: 64
+num_attention_heads: 4
+num_attention_layers: 2
+num_relationship_layers: 3
+
+# Generator architecture
+generator_layers: [256, 256, 256]
+generator_activation: "leaky_relu"
+generator_dropout: 0.2
+
+# Discriminator architecture
+discriminator_layers: [256, 256, 128, 1]
+discriminator_activation: "leaky_relu"
+discriminator_dropout: 0.3
+spectral_normalization: true
+
+# Attention settings
+attention_type: "multihead" # multihead, scaled_dot, multi_scale
+attention_dropout: 0.1
+attention_normalization: "layer_norm"
+
+# Gumbel-Softmax settings
+gumbel_temperature: 0.5
+gumbel_hard: true
+gumbel_temperature_decay: 0.95
+gumbel_min_temperature: 0.1
+
+# Constraints and controls
+apply_constraints: true
+constraint_weight: 1.0
+balance_g_d: true

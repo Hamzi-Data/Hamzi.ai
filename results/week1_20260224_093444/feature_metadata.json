@@ -1,0 +1,330 @@
+{
+  "age": {
+    "name": "age",
+    "original_dtype": "int64",
+    "sample_count": 41188,
+    "missing_rate": 0.0,
+    "is_numeric": true,
+    "mean": 40.02406040594348,
+    "std": 10.421249980934048,
+    "skewness": 0.7846682380932289,
+    "kurtosis": 0.7910698035273853,
+    "min": 17.0,
+    "max": 98.0,
+    "unique_count": 78,
+    "is_integer": true,
+    "is_positive": true,
+    "is_bounded": true,
+    "anderson_statistic": 444.7290025091279,
+    "ks_statistic": 0.09443768259427898,
+    "ks_p_value": 3.7687e-320,
+    "multimodality_score": 0.3,
+    "is_multimodal": false,
+    "tail_behavior": "MODERATE_TAILED",
+    "power_law_test": {
+      "is_power_law": false,
+      "alpha": null,
+      "x_min": null,
+      "ks": null,
+      "p_value": null,
+      "tail_fraction": 0.0,
+      "support_size": 0,
+      "n_tail": 0,
+      "diagnostics": {
+        "reason": "no_counts_available"
+      }
+    },
+    "deep_type": "DISCRETE_UNIFORM",
+    "optimal_transformation": {
+      "type": "ordinal_encoding",
+      "parameters": {}
+    }
+  },
+  "job": {
+    "name": "job",
+    "original_dtype": "object",
+    "sample_count": 41188,
+    "missing_rate": 0.0,
+    "is_numeric": false,
+    "unique_count": 12,
+    "cardinality": 0.0002913469942701758,
+    "most_frequent": "admin.",
+    "frequency_of_most_frequent": 0.25303486452364765,
+    "is_ordinal": false,
+    "entropy": 2.9798968667305554,
+    "gini_impurity": 0.8383983808497605,
+    "has_hierarchy": {
+      "has_levels": true,
+      "levels_detected": 2,
+      "example_pattern": "admin."
+    },
+    "power_law_test": {
+      "is_power_law": false,
+      "alpha": null,
+      "x_min": null,
+      "ks": null,
+      "p_value": null,
+      "tail_fraction": 0.0,
+      "support_size": 0,
+      "n_tail": 0,
+      "diagnostics": {
+        "reason": "no_counts_available"
+      }
+    },
+    "deep_type": "CATEGORICAL_HIGH_CARDINALITY",
+    "optimal_transformation": {
+      "type": "target_encoding",
+      "parameters": {
+        "smoothing": 10
+      }
+    }
+  },
+  "marital": {
+    "name": "marital",
+    "original_dtype": "object",
+    "sample_count": 41188,
+    "missing_rate": 0.0,
+    "is_numeric": false,
+    "unique_count": 4,
+    "cardinality": 9.711566475672526e-05,
+    "most_frequent": "married",
+    "frequency_of_most_frequent": 0.6052248227639119,
+    "is_ordinal": false,
+    "entropy": 1.3242123318525314,
+    "gini_impurity": 0.5422793852907577,
+    "has_hierarchy": {
+      "has_levels": false,
+      "levels_detected": 0,
+      "example_pattern": null
+    },
+    "deep_type": "CATEGORICAL_LOW_CARDINALITY",
+    "optimal_transformation": {
+      "type": "one_hot",
+      "parameters": {}
+    }
+  },
+  "education": {
+    "name": "education",
+    "original_dtype": "object",
+    "sample_count": 41188,
+    "missing_rate": 0.0,
+    "is_numeric": false,
+    "unique_count": 8,
+    "cardinality": 0.00019423132951345052,
+    "most_frequent": "university.degree",
+    "frequency_of_most_frequent": 0.29542585218995826,
+    "is_ordinal": false,
+    "entropy": 2.5566438839333383,
+    "gini_impurity": 0.8064692812079849,
+    "has_hierarchy": {
+      "has_levels": false,
+      "levels_detected": 0,
+      "example_pattern": null
+    },
+    "deep_type": "CATEGORICAL_LOW_CARDINALITY",
+    "optimal_transformation": {
+      "type": "one_hot",
+      "parameters": {}
+    }
+  },
+  "default": {
+    "name": "default",
+    "original_dtype": "object",
+    "sample_count": 41188,
+    "missing_rate": 0.0,
+    "is_numeric": false,
+    "unique_count": 3,
+    "cardinality": 7.283674856754395e-05,
+    "most_frequent": "no",
+    "frequency_of_most_frequent": 0.7912013207730407,
+    "is_ordinal": false,
+    "entropy": 0.7401217799635669,
+    "gini_impurity": 0.3304339873834895,
+    "has_hierarchy": {
+      "has_levels": false,
+      "levels_detected": 0,
+      "example_pattern": null
+    },
+    "deep_type": "CATEGORICAL_LOW_CARDINALITY",
+    "optimal_transformation": {
+      "type": "one_hot",
+      "parameters": {}
+    }
+  },
+  "housing": {
+    "name": "housing",
+    "original_dtype": "object",
+    "sample_count": 41188,
+    "missing_rate": 0.0,
+    "is_numeric": false,
+    "unique_count": 3,
+    "cardinality": 7.283674856754395e-05,
+    "most_frequent": "yes",
+    "frequency_of_most_frequent": 0.5238418956977761,
+    "is_ordinal": false,
+    "entropy": 1.1356972640382434,
+    "gini_impurity": 0.520597650574292,
+    "has_hierarchy": {
+      "has_levels": false,
+      "levels_detected": 0,
+      "example_pattern": null
+    },
+    "deep_type": "CATEGORICAL_LOW_CARDINALITY",
+    "optimal_transformation": {
+      "type": "one_hot",
+      "parameters": {}
+    }
+  },
+  "loan": {
+    "name": "loan",
+    "original_dtype": "object",
+    "sample_count": 41188,
+    "missing_rate": 0.0,
+    "is_numeric": false,
+    "unique_count": 3,
+    "cardinality": 7.283674856754395e-05,
+    "most_frequent": "no",
+    "frequency_of_most_frequent": 0.8242692046227057,
+    "is_ordinal": false,
+    "entropy": 0.7718229527086855,
+    "gini_impurity": 0.2969912705023622,
+    "has_hierarchy": {
+      "has_levels": true,
+      "levels_detected": 2,
+      "example_pattern": "no"
+    },
+    "deep_type": "CATEGORICAL_LOW_CARDINALITY",
+    "optimal_transformation": {
+      "type": "one_hot",
+      "parameters": {}
+    }
+  },
+  "contact": {
+    "name": "contact",
+    "original_dtype": "object",
+    "sample_count": 41188,
+    "missing_rate": 0.0,
+    "is_numeric": false,
+    "unique_count": 2,
+    "cardinality": 4.855783237836263e-05,
+    "most_frequent": "cellular",
+    "frequency_of_most_frequent": 0.6347479848499563,
+    "is_ordinal": false,
+    "entropy": 0.9469565768889623,
+    "gini_impurity": 0.46368596115775185,
+    "has_hierarchy": {
+      "has_levels": false,
+      "levels_detected": 0,
+      "example_pattern": null
+    },
+    "deep_type": "CATEGORICAL_LOW_CARDINALITY",
+    "optimal_transformation": {
+      "type": "one_hot",
+      "parameters": {}
+    }
+  },
+  "month": {
+    "name": "month",
+    "original_dtype": "object",
+    "sample_count": 41188,
+    "missing_rate": 0.0,
+    "is_numeric": false,
+    "unique_count": 10,
+    "cardinality": 0.00024278916189181314,
+    "most_frequent": "may",
+    "frequency_of_most_frequent": 0.3342963970088375,
+    "is_ordinal": false,
+    "entropy": 2.64895851276605,
+    "gini_impurity": 0.8040511240268144,
+    "has_hierarchy": {
+      "has_levels": false,
+      "levels_detected": 0,
+      "example_pattern": null
+    },
+    "power_law_test": {
+      "is_power_law": false,
+      "alpha": null,
+      "x_min": null,
+      "ks": null,
+      "p_value": null,
+      "tail_fraction": 0.0,
+      "support_size": 0,
+      "n_tail": 0,
+      "diagnostics": {
+        "reason": "no_counts_available"
+      }
+    },
+    "deep_type": "CATEGORICAL_HIGH_CARDINALITY",
+    "optimal_transformation": {
+      "type": "target_encoding",
+      "parameters": {
+        "smoothing": 10
+      }
+    }
+  },
+  "day_of_week": {
+    "name": "day_of_week",
+    "original_dtype": "object",
+    "sample_count": 41188,
+    "missing_rate": 0.0,
+    "is_numeric": false,
+    "unique_count": 5,
+    "cardinality": 0.00012139458094590657,
+    "most_frequent": "thu",
+    "frequency_of_most_frequent": 0.2093570942993105,
+    "is_ordinal": false,
+    "entropy": 2.321022426357619,
+    "gini_impurity": 0.7997488632954274,
+    "has_hierarchy": {
+      "has_levels": false,
+      "levels_detected": 0,
+      "example_pattern": null
+    },
+    "deep_type": "CATEGORICAL_LOW_CARDINALITY",
+    "optimal_transformation": {
+      "type": "one_hot",
+      "parameters": {}
+    }
+  },
+  "duration": {
+    "name": "duration",
+    "original_dtype": "int64",
+    "sample_count": 41188,
+    "missing_rate": 0.0,
+    "is_numeric": true,
+    "mean": 258.2850101971448,
+    "std": 259.2792488364648,
+    "skewness": 3.2630224157610432,
+    "kurtosis": 20.245334438614844,
+    "min": 0.0,
+    "max": 4918.0,
+    "unique_count": 1544,
+    "is_integer": true,
+    "is_positive": false,
+    "is_bounded": true,
+    "anderson_statistic": 2770.4509413149135,
+    "ks_statistic": 0.16950236935577978,
+    "ks_p_value": 0.0,
+    "multimodality_score": 0.0,
+    "is_multimodal": false,
+    "tail_behavior": "LIGHT_TAILED",
+    "power_law_test": {
+      "is_power_law": false,
+      "alpha": null,
+      "x_min": null,
+      "ks": null,
+      "p_value": null,
+      "tail_fraction": 0.0,
+      "support_size": 0,
+      "n_tail": 0,
+      "diagnostics": {
+        "reason": "no_counts_available"
+      }
+    },
+    "deep_type": "DISCRETE_UNIFORM",
+    "optimal_transformation": {
+      "type": "ordinal_encoding",
+      "parameters": {}
+    }
+  }
+}

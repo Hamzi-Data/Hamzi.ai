@@ -1,0 +1,85 @@
+{
+  "column_wise_metrics": {
+    "transaction_id": {
+      "spearman_correlation": 1.0,
+      "js_divergence": 0.0,
+      "mean_preservation": 0.0,
+      "std_preservation": 0.0,
+      "ks_statistic": 0.0,
+      "ks_p_value": 1.0,
+      "mutual_information": 2.995732273153991
+    },
+    "customer_id": {
+      "spearman_correlation": 1.0,
+      "js_divergence": 0.0,
+      "mean_preservation": 0.0,
+      "std_preservation": 0.0,
+      "ks_statistic": 0.0,
+      "ks_p_value": 1.0,
+      "mutual_information": 2.99561797940616
+    },
+    "transaction_date": {
+      "spearman_correlation": 1.0,
+      "js_divergence": 0.0,
+      "mean_preservation": 0.0,
+      "std_preservation": 0.0,
+      "ks_statistic": 0.0,
+      "ks_p_value": 1.0,
+      "mutual_information": NaN
+    },
+    "amount": {
+      "spearman_correlation": 1.0,
+      "js_divergence": 0.8114473400484213,
+      "mean_preservation": 0.9999860128311661,
+      "std_preservation": 0.9949607355246004,
+      "ks_statistic": 0.98282,
+      "ks_p_value": 0.0,
+      "mutual_information": 1.267018662870146
+    },
+    "transaction_type": {
+      "spearman_correlation": 1.0,
+      "js_divergence": 0.0,
+      "mean_preservation": 0.0,
+      "std_preservation": 0.0,
+      "ks_statistic": 0.0,
+      "ks_p_value": 1.0,
+      "mutual_information": NaN
+    },
+    "channel": {
+      "spearman_correlation": 0.9999999999999999,
+      "js_divergence": 0.0,
+      "mean_preservation": 0.0,
+      "std_preservation": 0.0,
+      "ks_statistic": 0.0,
+      "ks_p_value": 1.0,
+      "mutual_information": NaN
+    },
+    "merchant_category": {
+      "spearman_correlation": 1.0,
+      "js_divergence": 0.0,
+      "mean_preservation": 0.0,
+      "std_preservation": 0.0,
+      "ks_statistic": 0.0,
+      "ks_p_value": 1.0,
+      "mutual_information": NaN
+    },
+    "is_fraud": {
+      "spearman_correlation": 1.0,
+      "js_divergence": 0.0,
+      "mean_preservation": 0.0,
+      "std_preservation": 0.0,
+      "ks_statistic": 0.0,
+      "ks_p_value": 1.0,
+      "mutual_information": 0.0017320379098311727
+    }
+  },
+  "relationship_preservation": {
+    "correlation_preservation": {
+      "mean_difference": 0.0037527073672090623,
+      "max_difference": 0.027861636497745243,
+      "correlation_similarity": 0.9997704009256823
+    },
+    "hierarchy_preservation": {}
+  },
+  "overall_score": 0.7498852004628411
+}
