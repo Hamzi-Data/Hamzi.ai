@@ -391,7 +391,7 @@ synthetic_ehr = platform.generate_private(
 
 Roadmap
 
-Version 1.0.0 (Current Release - Q1 2025)
+Version 1.0.0 (Current Release - Q1 2026)
 
 · Core CGS-GAN implementation
 · Deep type categorization system
@@ -411,7 +411,7 @@ Version 2.0.0 (Professional Edition - Q3 2026)
 · API service with authentication
 · Compliance templates (GDPR, HIPAA, Basel III)
 
-Version 3.0.0 (Enterprise Edition - Q1 2026)
+Version 3.0.0 (Enterprise Edition - Q1 2027)
 
 · Federated learning capabilities
 · Causal inference preservation
@@ -461,7 +461,7 @@ If you use this software in your research, please cite:
 @software{titan_synthetic_2024,
   author = {Titan AI Research Team},
   title = {Titan Tabular Synthetic Data Platform},
-  year = {2025},
+  year = {2026},
   publisher = {GitHub},
   url = {https://github.com/Hamzi-Data/Hamzi.ai}
 }
