@@ -320,7 +320,7 @@ Examples
 Financial Data Generation
 
 ```python
-from titan import TitanSyntheticPlatform
+#from Titan import HybridSyntheticEngine---> Soon
 import pandas as pd
 
 # Load banking dataset
