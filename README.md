@@ -32,7 +32,7 @@ This is the **research preview / development version** of the Titan Synthetic Da
 It is a stable work-in-progress with known limitations and occasional bugs. 
 We are actively developing and improving the codebase.
 
-**Professional Edition** with enhanced stability, advanced features, and production support will be released in **6 months** (Q3 2024).
+**Professional Edition** with enhanced stability, advanced features, and production support will be released in **6 months** (Q3 2026).
 
 [![Status: Research Preview](https://img.shields.io/badge/Status-Research%20Preview-orange.svg)]()
 [![Stability: 49%](https://img.shields.io/badge/Stability-49%25-yellow.svg)]()
@@ -391,7 +391,7 @@ synthetic_ehr = platform.generate_private(
 
 Roadmap
 
-Version 1.0.0 (Current Release - Q1 2024)
+Version 1.0.0 (Current Release - Q1 2025)
 
 · Core CGS-GAN implementation
 · Deep type categorization system
@@ -400,7 +400,7 @@ Version 1.0.0 (Current Release - Q1 2024)
 · Privacy metrics
 · Documentation and examples
 
-Version 2.0.0 (Professional Edition - Q3 2024)
+Version 2.0.0 (Professional Edition - Q3 2026)
 
 · Transformer-based generator with improved attention
 · Differential privacy with accountant
@@ -411,7 +411,7 @@ Version 2.0.0 (Professional Edition - Q3 2024)
 · API service with authentication
 · Compliance templates (GDPR, HIPAA, Basel III)
 
-Version 3.0.0 (Enterprise Edition - Q1 2025)
+Version 3.0.0 (Enterprise Edition - Q1 2026)
 
 · Federated learning capabilities
 · Causal inference preservation
@@ -461,7 +461,7 @@ If you use this software in your research, please cite:
 @software{titan_synthetic_2024,
   author = {Titan AI Research Team},
   title = {Titan Tabular Synthetic Data Platform},
-  year = {2024},
+  year = {2025},
   publisher = {GitHub},
   url = {https://github.com/Hamzi-Data/Hamzi.ai}
 }
