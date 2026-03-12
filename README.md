@@ -67,18 +67,6 @@
 - Comprehensive error handling and logging
 
 ---
-
-## Performance Metrics
-
-| Metric                   | Value         | Benchmark                           |
-| ------------------------ | ------------- | ----------------------------------- |
-| Statistical Similarity   | 94.7%         | Jensen-Shannon < 0.05               |
-| Correlation Preservation | 96.2%         | Matrix correlation > 0.95           |
-| Mode Coverage            | 92.3%         | GMM-based detection                 |
-| Privacy Score            | 89.5%         | Membership inference protection     |
-| Training Stability       | 99.8%         | No mode collapse across 1000 epochs |
-| Generation Speed         | 100K rows/sec | On NVIDIA A100                      |
-
 ---
 
 ## Architecture
@@ -126,9 +114,7 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/Hamzi-Data/synthetic_data_platform.git
-cd titan-synthetic-data
-
+git clone https://github.com/Hamzi-Data/Hamzi.ai.git
 # Create virtual environment
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
