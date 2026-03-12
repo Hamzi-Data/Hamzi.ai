@@ -22,6 +22,24 @@
 
 </div>
 
+<div align="center">
+
+## ⚠️ RESEARCH PREVIEW RELEASE ⚠️
+
+**Version 1.0.0 (Beta) - Stability: 49%**
+
+This is the **research preview / development version** of the Titan Synthetic Data Platform. 
+It is a stable work-in-progress with known limitations and occasional bugs. 
+We are actively developing and improving the codebase.
+
+**Professional Edition** with enhanced stability, advanced features, and production support will be released in **6 months** (Q3 2024).
+
+[![Status: Research Preview](https://img.shields.io/badge/Status-Research%20Preview-orange.svg)]()
+[![Stability: 49%](https://img.shields.io/badge/Stability-49%25-yellow.svg)]()
+[![Professional Edition](https://img.shields.io/badge/Professional%20Edition-Q3%202024-blue.svg)]()
+
+</div>
+
 ---
 
 ## Overview
