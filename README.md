@@ -431,7 +431,7 @@ Development Setup
 
 ```bash
 # Fork and clone
-git clone https://github.com/Hamzi-Data/synthetic_data_platform.git
+git clone https://github.com/Hamzi-Data/Hamzi.ai.git
 cd titan-synthetic-data
 
 # Install development dependencies
@@ -463,7 +463,7 @@ If you use this software in your research, please cite:
   title = {Titan Tabular Synthetic Data Platform},
   year = {2024},
   publisher = {GitHub},
-  url = {https://github.com/Hamzi-Data/synthetic_data_platform}
+  url = {https://github.com/Hamzi-Data/Hamzi.ai}
 }
 ```
 
